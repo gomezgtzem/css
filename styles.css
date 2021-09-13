@@ -1,0 +1,28 @@
+body{
+    background:whitesmoke;
+}
+#title{
+    color: #32cd32;
+    text-align: center;
+}
+/* p{
+    color: mediumaquamarine;
+    background-color:black;
+} */
+.p-large{
+    font-size: 32px;
+}
+.p-green{
+    color: green;
+    background-color: hotpink;
+    /* font-size: 32px; */
+}
+#subtitle{
+    color: #25ff45;
+    text-align: center;
+}
+.p-red{
+    color: red;
+    background-color: aquamarine;
+    /* font-size: 32px; */
+}
