@@ -1,0 +1,30 @@
+body{
+    background-image: url("./img/bg.png");
+}
+.title{
+    text-align: center;
+    color: royalblue;
+    background-color: black;
+    border: 5px dotted red;
+}
+.subtitle{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+p{
+    
+}
+#caja{
+    background-color:black;
+    width: 400px;
+    height: 150px;
+    margin: 0 auto;/* Nos sirve para centrar elementos */
+}
+#caja2{
+    background-color: green;
+}
+#caja p, #caja2 p{
+    color: white;
+}
