@@ -1,0 +1,37 @@
+body{
+    background-color: beige;
+}
+fieldset{
+    width: 40%;
+    text-align: center;
+}
+.campo1{
+    border-radius: 30px;
+}
+.campo2{
+    margin: 10px;
+    border-radius: 30px;
+}
+.campo3{
+    border-radius: 30px;
+}
+.line1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(184, 17, 17);
+}
+.line2{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(45, 184, 17);
+}
+.line3{
+    font-family: 'Lato', sans-serif;
+    color: rgb(181, 184, 17);
+}
+.line4{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(20, 17, 184);
+}
+.line5{
+    font-family: 'Playfair Display', serif;
+    color: rgb(184, 17, 134);
+}
