@@ -1,0 +1,41 @@
+body {
+  background-color: beige;
+}
+.container {
+  width: 80%;
+  min-height: 400px;
+  /* Si se empieza a reducir el elemento, con min-height delimitamos el tamaño al que se podrá reducir */
+  margin: 0 auto;
+  border: 2px solid black;
+  display: flex;
+  /* Espacio entre elementos con justify-content */
+  justify-content: space-around;
+  /* Con flex-wrap hacemos que nuestros elementos se puedan ir hacia abajo cuando ya no hay espacio en su misma linea */
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.caja {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caja1 {
+  border: 2px solid red;
+}
+.caja2 {
+  border: 2px solid yellow;
+  align-self: center;
+}
+.caja3 {
+    border: 2px solid blue;
+    align-self: flex-end;
+}
+.caja4 {
+    border: 2px solid green;
+    align-self: center;
+}
+.caja5 {
+    border: 2px solid purple;
+}
