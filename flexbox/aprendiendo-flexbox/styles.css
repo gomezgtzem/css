@@ -1,0 +1,30 @@
+.flex-container {
+  display: flex;
+  /* flex-direction: row; Acomoda en forma de fila, viene por defecto, no se pone ya que va implicito */
+  /* flex-direction: column;  Acomoda en forma de columna */
+  /* flex-direction: row;     Acomoda en forma de columna con el orden inverso de los elementos */
+  background-color: burlywood;
+  /* Con flex-wrap se nos acomodara en la siguiente fila si el tamaño colapsa y requiere más para poder entrar correctamente en el espacio disponible 
+  Las posibles opciones son nowrap, wrap y wrap reverse*/
+  flex-wrap: wrap;
+  /* Cuando los elementos son menos se alinearan al centro con la etiqueta justify-content */
+  justify-content:center;
+  /* Con la etiqueta flex-end, flex-start se alinearan al final o inicio de la pantalla space-around space-beetwen*/
+  /* al combinar height con align-items se posicionara el contenido de cada "caja" en la posicion que se le indique
+  flex-start, flex-end, center o con stretch ocupara todo el tamaño disponible */
+  /* align-content: space-around; */
+  /* flex-grow nos ocupara mas tamaño conforme nosotros le demos importancia, crecerá según el valor que se le de, a mayor valor, mayor tamaño tratará de ocupar */
+  /* Por su parte flex-shrink hará lo contrario y ocupará el menor tamaño posible conforme nosotros le indiquemos */
+  /* flex-basis determinara el tamaño minimo que tendra una caja de flex */
+  padding: 10px;
+  border: 2px solid black;
+}
+.flex-container div {
+  background-color: gainsboro;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border: 2px solid black;
+}
